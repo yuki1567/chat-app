@@ -1,5 +1,8 @@
 class RoomsController < ApplicationController
 
+  def insex
+  end
+
   def new
     @room = Room.new
   end
